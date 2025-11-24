@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pramtech IT Consultancy</title>
+  <meta name="description" content="Pramtech IT - Professional IT consultancy: software, cloud, security and digital transformation.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>:root{
+  --bg: #ffffff;
+  --muted: #6b7280;
+  --primary: #0b5cff;
+  --card: #f8fafc;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#0b1220; -webkit-font-smoothing:antialiased;}
+a{color:inherit; text-decoration:none}
+.container{max-width:1100px; margin:0 auto; padding:28px;}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 28px;border-bottom:1px solid #eef2f7;background:white;position:sticky;top:0;z-index:50}
+.nav .logo{height:42px; margin-right:12px}
+.nav .brand{font-weight:700;color:var(--primary);margin-right:18px}
+.nav-right a{margin-left:16px;color:var(--muted);font-weight:600}
+.nav-right .btn{background:var(--primary);color:white;padding:10px 14px;border-radius:8px}
+.hero{display:flex;align-items:center;gap:40px;padding:64px 28px;background:#f7fbff}
+.hero-left{max-width:560px}
+.hero h1{font-size:40px;margin:0 0 12px;color:#07123a}
+.hero p{color:var(--muted);margin:0 0 18px}
+.btn-primary{background:var(--primary);color:white;padding:12px 18px;border-radius:10px;display:inline-block}
+.hero-image{flex:1;text-align:right}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:18px}
+.card{background:var(--card);padding:20px;border-radius:12px;border:1px solid #eef2f7}
+.section{padding:48px 0}
+.footer{background:#071428;color:#dbeafe;padding:28px;text-align:center}
+.form input, .form textarea, .form select{width:100%;padding:12px;margin-top:8px;border:1px solid #e6eef8;border-radius:8px}
+.small{color:var(--muted);font-size:14px}
+@media(max-width:800px){
+  .hero{flex-direction:column;text-align:center}
+  .hero-image{order:-1}
+}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-left">
+    <img src="images/logo.png" alt="Pramtech IT" class="logo">
+    <a href="index.html" class="brand">Pramtech IT</a>
+  </div>
+  <div class="nav-right">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="careers.html">Careers</a>
+    <a href="job-application.html">Apply</a>
+    <a href="contact.html" class="btn">Contact</a>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <div class="container hero-left">
+      <h1>Professional IT Consulting & Digital Services</h1>
+      <p class="small">We help startups and enterprises deliver secure, scalable and modern software. Cloud migration, custom apps, cybersecurity and managed support.</p>
+      <a class="btn-primary" href="contact.html">Get a Free Quote</a>
+      <div style="margin-top:20px" class="small">📍 Mancherial • <a href="mailto:pramtechitsolutions@gmail.com">pramtechitsolutions@gmail.com</a></div>
+    </div>
+    <div class="hero-image">
+      <img src="images/hero.png" alt="Pramtech Hero" style="max-width:520px;border-radius:12px;box-shadow:0 20px 50px rgba(11,92,255,0.12)">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 style="color:var(--primary);margin-bottom:8px">Our Services</h2>
+      <div class="services-grid">
+        <div class="card"><h3>Custom Software</h3><p class="small">Web & mobile apps, APIs and integrations for business needs.</p></div>
+        <div class="card"><h3>Cloud Engineering</h3><p class="small">AWS / Azure / GCP migrations, infrastructure as code and DevOps.</p></div>
+        <div class="card"><h3>Cybersecurity</h3><p class="small">Threat assessment, penetration testing and compliance.</p></div>
+        <div class="card"><h3>IT Consulting</h3><p class="small">Strategy, architecture and digital transformation plans.</p></div>
+        <div class="card"><h3>Managed Services</h3><p class="small">Monitoring, backups and SLA-driven support.</p></div>
+        <div class="card"><h3>Website & eCommerce</h3><p class="small">Fast responsive websites and headless commerce solutions.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:white">
+    <div class="container">
+      <h2 style="color:var(--primary);margin-bottom:12px">Highlighted Projects</h2>
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <div class="card" style="flex:1;min-width:260px"><strong>Enterprise Portal</strong><p class="small">Role-based analytics and workflows.</p></div>
+        <div class="card" style="flex:1;min-width:260px"><strong>Fintech Cloud Migration</strong><p class="small">Secure, scalable migration to cloud.</p></div>
+        <div class="card" style="flex:1;min-width:260px"><strong>Security Audit</strong><p class="small">Pen testing and remediation.</p></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container small">© 2025 Pramtech IT Consultancy • Built with care • <a href="contact.html" style="color:#cfe4ff">Contact</a></div>
+</footer>
+</body>
+</html>
